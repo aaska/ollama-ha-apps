@@ -7,6 +7,7 @@
 ## In Progress
 
 ## Done
+- [x] Create `build.yaml` to override Supervisor default Alpine image injection.
 - [x] Fix Docker build relying on HA Supervisor alpine base instead of official Ollama base.
 - [x] Fix add-on config schema format for string arrays.
 - [x] Fix invalid map in `config.yaml` causing add-on store to discard the add-on.
