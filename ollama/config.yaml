@@ -6,8 +6,6 @@ arch:
   - aarch64
   - amd64
 init: false
-map:
-  - data:rw
 ports:
   11434/tcp: 11434
 options:
