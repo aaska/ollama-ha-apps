@@ -1,0 +1,17 @@
+name: "Ollama"
+version: "0.1.0"
+slug: "ollama"
+description: "Run Ollama locally on Home Assistant"
+arch:
+  - aarch64
+  - amd64
+init: false
+map:
+  - data:rw
+ports:
+  11434/tcp: 11434
+options:
+  models_to_pull: []
+schema:
+  models_to_pull:
+    - match: "^[a-zA-Z0-9_.-]+(:[a-zA-Z0-9_.-]+)?$"
