@@ -1,5 +1,5 @@
 name: "Ollama"
-version: "0.1.0"
+version: "0.1.1"
 slug: "ollama"
 description: "Run Ollama locally on Home Assistant"
 arch:

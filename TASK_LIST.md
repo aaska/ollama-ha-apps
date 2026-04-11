@@ -7,6 +7,7 @@
 ## In Progress
 
 ## Done
+- [x] Fix container starting error by overriding base image ENTRYPOINT and bumping version to `0.1.1`.
 - [x] Create `build.yaml` to override Supervisor default Alpine image injection.
 - [x] Fix Docker build relying on HA Supervisor alpine base instead of official Ollama base.
 - [x] Fix add-on config schema format for string arrays.
