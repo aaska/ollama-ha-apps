@@ -12,4 +12,4 @@ options:
   models_to_pull: []
 schema:
   models_to_pull:
-    - match: "^[a-zA-Z0-9_.-]+(:[a-zA-Z0-9_.-]+)?$"
+    - str
