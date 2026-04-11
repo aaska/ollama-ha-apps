@@ -1,4 +1,5 @@
-FROM ollama/ollama:latest
+ARG BUILD_FROM
+FROM $BUILD_FROM
 
 # Install jq and curl to parse options.json and check API
 RUN apt-get update && apt-get install -y jq curl && rm -rf /var/lib/apt/lists/*
