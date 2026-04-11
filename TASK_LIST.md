@@ -5,7 +5,7 @@
 - [ ] Enhance documentation.
 
 ## In Progress
-- [ ] Add basic repository configs and ollama add-on files.
 
 ## Done
 - [x] Initial planning for Ollama HA addon.
+- [x] Add basic repository configs and ollama add-on files.
