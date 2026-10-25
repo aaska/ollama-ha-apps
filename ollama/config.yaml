@@ -1,5 +1,5 @@
 name: "Ollama"
-version: "0.1.2"
+version: "0.2.0"
 slug: "ollama"
 description: "Run Ollama locally on Home Assistant"
 arch:
@@ -10,8 +10,13 @@ ports:
   11434/tcp: 11434
 backup_exclude:
   - "ollama/models/*"
+  - "ollama/dist/*"
 options:
   models_to_pull: []
+  auto_update: true
+  ollama_version: "latest"
 schema:
   models_to_pull:
     - str
+  auto_update: bool
+  ollama_version: str
